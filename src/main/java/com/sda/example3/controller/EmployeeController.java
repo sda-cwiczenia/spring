@@ -36,6 +36,7 @@ public class EmployeeController {
 //        return "Pracownik dodany do bazy";
 //    }
 
+//    Dodawanie pracownika
     @GetMapping("/add")
     public String addEmployeeForm(Model model) {
 
